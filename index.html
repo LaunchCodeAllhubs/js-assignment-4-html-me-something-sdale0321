@@ -1,8 +1,63 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <title>HTML Me Something</title>
+      <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+      <meta charset="UTF-8">
+      <link href="styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+      <header>
+         <h1 id="mainHeading">
+            &#128511; Hi! My name is Samuel 
+         </h1>
+      </header>
+      <main>
+         <!-- about me section -->
+         <article id="first-section">
+            <section id="aboutMe" class="aboutMe-section">
+               <h2 class="aboutMe-section-header">A Little About Me...</h2>
+               <p id="testP" class="funParagraph">I love to spend free time reading and being outside! Right now, Eragon is the series I'm on; it describes the mythical adventures of a dragon rider! Anything related to physics or engineering always intrigues me. Also, if it's got wheels I'll ride it - Skateboards, longboards, motorbikes etc...I enjoy it all!  Action based anime is endlessly entertaining to me - I love how much context the fights have, you have to know a lot of the back story for every frame to make sense!</p>
+                  <div class="row">
+                     <div class="column">
+                        <img class="aboutMe-image" src="images/aboutPic1.jpg" />
+                     </div>
+                     <div class="column">
+                        <img class="aboutMe-image" src="images/aboutPic2.jpg" />
+                     </div>
+                     <div class="column">
+                        <img class="aboutMe-image" src="images/aboutPic3.jpg" />
+                     </div>
+                     </div>
+            </section>
+         </article>
+
+         <!-- current antics section -->
+         <article id="second-section">
+            <section class="current" class="current-section">
+               <h2 class="current-section-header">Current Antics!</h2>
+               <!-- <p class="funParagraph">If I don't have my nose in a book, wheels under me, or anime on the TV, I'm usually working. I work full time at a coffee factory &amp; cafe, the free caffeine is welcome!  Saturday and Sunday mornings you can find me at Pine Hill Farms scooping horse poo for an extra buck! Oh how I hope this class can help me.</p> -->
+               <div class="current-img-container">
+                  <p class="funParagraph">If I don't have my nose in a book, wheels under me, or anime on the TV, I'm usually working. I work full time at a coffee factory &amp; cafe, the free caffeine is welcome!  Saturday and Sunday mornings you can find me at a horse barn cleaning stalls for an extra buck! Oh how I hope this class can help me with that.</p>
+                  <img id="current-image" src="images/personalpic.PNG" alt="" />
+               </div>
+            </section>
+         </article>
+
+         <!-- motivation section -->
+         <article id="third-section">
+            <section>
+               <h2>Where's My Drive?</h2>
+               <p class="funParagraph">My interest in computer science and coding took root when building a game on Scratch during highschool. Since then I’ve been teaching myself all I can on the amazing science of using transistors and electricity to generate such amazing advances in technology, and will always contemplate these advances in wonderment.</p>
+               <img src="images/drive.jpg" alt="" />
+            </section>
+         </article>
+      </main>
+
+      <footer>
+         <p>Samuel Carter's Software Development &copy;</p>
+      </footer>
+      
    </body>
 </html>
